@@ -2,16 +2,12 @@
 
 Code and selected analysis-ready data for the study *Global, Regional and National Trends in Latent Tuberculosis Infection Prevalence From 1990 to 2023, With Projections to 2050*.
 
-This release was prepared on 2026-07-10 from the analysis version used to generate the revised manuscript tables and supplementary materials. It contains only non-identifiable, aggregate estimates and project-derived outputs.
-
 ## Contents
 
 - `script/`: R and Python scripts for data preparation, trend analysis, joinpoint regression, national analyses, forecasting, decomposition, diagnostics, and appendix construction.
 - `Data/CleanGBD/`: project-specific, cleaned GBD 2023 LTBI prevalence estimates used by downstream analyses.
 - `Data/iso_code.csv` and `Data/who_region.csv`: country and WHO-region lookup tables used by the national analyses.
 - `outcome/`: tabular analytic results, including Table 1, supplementary tables, national AAPCs, and negative-binomial forecast outputs.
-
-The supplied data support regeneration of the principal trend and tabular analyses. The forecast model and national map require additional external inputs described in [DATA_AVAILABILITY.md](DATA_AVAILABILITY.md).
 
 ## Requirements
 
@@ -48,14 +44,3 @@ Rscript script/99_build_appendix.R
 ```
 
 `script/0_gbd_export_metadata.R` and `script/1_data_prepare.py` are included for provenance and reprocessing from an independently downloaded GBD export. The raw GBD export is intentionally not included in this repository.
-
-## Important data and use notes
-
-- The GBD-derived files in `Data/CleanGBD/` are aggregate estimates, not individual-level data. They retain the applicable IHME data-use conditions; see `DATA_AVAILABILITY.md`.
-- The UN World Population Prospects 2024 input and the map shapefiles are not redistributed here. They must be acquired separately and placed at the paths specified in `script/config.R`.
-- No manuscript files, eProof records, correspondence, reference PDFs, raw GBD downloads, map files, cached model objects, or unpublished publication-production figures are included.
-- Before making the repository public, choose and add a license for the author-written code. The data must not be relicensed as though they were original author-owned data; see `LICENSE_NOTICE.md`.
-
-## Suggested citation
-
-Please cite the associated article once published, together with the original data sources listed in `DATA_AVAILABILITY.md`.
