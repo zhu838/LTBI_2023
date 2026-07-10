@@ -1,0 +1,11 @@
+model,check,observed,posterior_predictive_mean,posterior_predictive_lwr,posterior_predictive_upr,posterior_predictive_p
+Poisson,Pearson discrepancy,970774.1561294552,41.53876639277831,25.70872024668389,60.058156224961714,0
+Poisson,Maximum absolute standardized residual,321.09493367353514,2.4348523345749093,1.723641693725004,3.387184131393719,0
+Poisson,Total observed count,26003892304,26003893833.864,26003443011.100002,26004313384.100002,0.502
+Poisson,Row-level 95% predictive coverage,0.38095238095238093,NA,NA,NA,NA
+Poisson,Mean absolute percentage error,0.4667150003886368,NA,NA,NA,NA
+Negative binomial,Pearson discrepancy,2072801.5787730804,2140715.0724321436,912047.9470753936,4223140.880307118,0.476
+Negative binomial,Maximum absolute standardized residual,592.7733001974096,598.5269120556451,349.1357313241438,971.2854170642005,0.488
+Negative binomial,Total observed count,26003892304,26001689038.6195,25893406427.275,26113763710.15,0.48
+Negative binomial,Row-level 95% predictive coverage,1,NA,NA,NA,NA
+Negative binomial,Mean absolute percentage error,0.5090521366080996,NA,NA,NA,NA

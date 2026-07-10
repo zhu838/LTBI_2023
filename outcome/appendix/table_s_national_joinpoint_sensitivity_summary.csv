@@ -1,0 +1,5 @@
+max_joinpoints_setting,countries,median_aapc,iqr_low,iqr_high,median_abs_delta_vs_baseline,max_abs_delta_vs_baseline
+0,204,-2.255,-2.69,-1.8025,0.030000000000000027,0.2999999999999998
+1,204,-2.28,-2.7,-1.78,0,0.17999999999999994
+2,204,-2.295,-2.69,-1.7625,0,0.050000000000000266
+3,204,-2.3,-2.69,-1.7625,0,0

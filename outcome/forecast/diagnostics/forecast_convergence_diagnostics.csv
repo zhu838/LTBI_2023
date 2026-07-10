@@ -1,0 +1,11 @@
+model,diagnostic,value
+Poisson,Maximum R-hat,11.912386119913387
+Poisson,Minimum effective sample size,2.0305741480084425
+Poisson,Divergent transitions,278
+Poisson,Maximum treedepth observed,12
+Poisson,Configured maximum-treedepth transitions,5178
+Negative binomial,Maximum R-hat,1.0011626340438922
+Negative binomial,Minimum effective sample size,1623.3379200430054
+Negative binomial,Divergent transitions,0
+Negative binomial,Maximum treedepth observed,12
+Negative binomial,Configured maximum-treedepth transitions,0

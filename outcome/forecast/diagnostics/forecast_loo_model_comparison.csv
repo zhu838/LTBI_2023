@@ -1,0 +1,9 @@
+model,estimate,Estimate,SE
+Poisson likelihood,elpd_loo,-6372290.053794031,1156097.7026417265
+Poisson likelihood,p_loo,6240502.462230716,1137902.0645022965
+Poisson likelihood,looic,12744580.107588062,2312195.405283453
+Negative binomial likelihood,elpd_loo,-718.8222498619654,6.054330703625811
+Negative binomial likelihood,p_loo,18.041073187667976,3.2915084683724065
+Negative binomial likelihood,looic,1437.6444997239307,12.108661407251622
+Poisson likelihood,max_pareto_k,Inf,NA
+Negative binomial likelihood,max_pareto_k,1.0545434207020934,NA
